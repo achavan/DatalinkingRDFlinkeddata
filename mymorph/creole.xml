@@ -1,0 +1,28 @@
+<!-- creole.xml mymorph -->
+<!--  ANISH, 4/3/2014 -->
+
+<!--
+This file just references the JAR file that contains the compiled resource.
+Configuration is contained in the @CreoleResource annotation on 
+jena.Morpher.
+-->
+<CREOLE-DIRECTORY>
+  <CREOLE>
+    <RESOURCE>
+      <JAR>mymorph.jar</JAR>
+      <NAME>mymorph</NAME>
+      <JAR>lib/commons-codec-1.6.jar</JAR>
+            <JAR>lib/httpclient-4.2.3.jar</JAR>
+            <JAR>lib/httpcore-4.2.2.jar</JAR>
+            <JAR>lib/jcl-over-slf4j-1.6.4.jar</JAR>
+            <JAR>lib/jena-arq-2.11.1.jar</JAR>
+            <JAR>lib/jena-core-2.11.1.jar</JAR>
+            <JAR>lib/jena-iri-1.0.1.jar</JAR>
+            <JAR>lib/jena-tdb-1.0.1.jar</JAR>
+            <JAR>lib/log4j-1.2.16.jar</JAR>
+            <JAR>lib/slf4j-api-1.6.4.jar</JAR>                                             
+      <CLASS>jena.Morpher</CLASS>
+      <COMMENT>blah blah blah</COMMENT>
+    </RESOURCE>
+  </CREOLE>
+</CREOLE-DIRECTORY>
